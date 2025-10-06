@@ -14,7 +14,7 @@ I bridge the gap between **business needs and technical execution**, managing re
 
 Trilingual (**English, French, German**) and comfortable in multicultural, international contexts.
 
-📄 [**Download my CV (PDF)**](cv.pdf)
+📄 [**Download my CV (PDF)**](PatriciaWintrebert_Resume.pdf)
 
 ---
 
