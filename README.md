@@ -84,7 +84,15 @@ Insight Lab AI is a collaborative platform for qualitative research, automating 
 ## 🏆 Achievements
 - 🥇 Winner — *Deploy Impact Hackathon*, Zurich (2023)  
 - 🥈 2nd Place — *Hack’n’Lead Hackathon*, Zurich (2023)  
-- 🧠 Member of *Mensa Switzerland* & *Intertel*  
+- 🧠 Member of *Mensa Switzerland* & *Intertel* (The high IQ society) 
+
+---
+
+## 💹 Hobbies & Interests
+- Algorithmic and discretionary trading on **Forex and indices**
+- Designing and backtesting **AI-assisted trading strategies**
+- Studying **market psychology**, **liquidity zones**, and **volatility dynamics**
+- Exploring how **machine learning and quantitative models** can enhance decision-making in financial markets
 
 ---
 
