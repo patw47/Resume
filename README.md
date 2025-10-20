@@ -75,6 +75,24 @@ Insight Lab AI is a collaborative platform for qualitative research, automating 
 
 ---
 
+## 🧩 Projects
+
+#### 🤖 **AI Agent for Marketing Automation** *(Private Repository)*
+Autonomous AI agent designed to assist with **marketing workflows**, including campaign generation, content distribution, and performance optimization.  
+- Built using **Python**, **LangChain**, and **OpenAI API**, integrated with CRM and marketing tools.  
+- Focused on **decision autonomy**, goal-driven reasoning, and **multi-platform task orchestration**.  
+- Designed for real-world marketing environments (LinkedIn, ActiveCampaign, Squarespace).  
+
+#### 📊 **AI Trading Agent for Nasdaq Decision Support** *(Private Repository)*
+Development of an **autonomous AI agent** for **NASDAQ market analysis** and **decision support**.  
+- Implemented **multi-agent architecture** for pattern recognition, volatility tracking, and liquidity analysis.  
+- Combined **real-time data streams** with **LLM-based reasoning** to provide actionable trading insights.  
+- Focused on **institutional-grade analysis** and **AI-driven strategy optimization**.  
+
+💬 *Additional private projects available upon request (under NDA or in private repositories).*
+
+---
+
 ## 🎓 Education
 - 🎓 **Mines ParisTech – PSL**, France — *Master’s in Machine Learning Engineering* (2023)  
 - 🎓 **University of Strasbourg**, France — *Bachelor’s in Computer Science* (2013)
@@ -93,6 +111,7 @@ Insight Lab AI is a collaborative platform for qualitative research, automating 
 - Designing and backtesting **AI-assisted trading strategies**
 - Studying **market psychology**, **liquidity zones**, and **volatility dynamics**
 - Exploring how **machine learning and quantitative models** can enhance decision-making in financial markets
+- Strong interest in **crypto and blockchain**
 
 ---
 
@@ -110,4 +129,4 @@ Insight Lab AI is a collaborative platform for qualitative research, automating 
 
 ---
 
-✨ _This CV is available online at [github.com/patw47/Resume](https://github.com/patw47/Resume)._
+✨ _This CV is available online at [github.com/patw47/Resume](https://github.com/patw47/PatriciaWintrebert_Resume.pdf)._
