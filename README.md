@@ -77,17 +77,45 @@ Insight Lab AI is a collaborative platform for qualitative research, automating 
 
 ## 🧩 Projects
 
-#### 🤖 **AI Agent for Marketing Automation** *(Private Repository)*
-Autonomous AI agent designed to assist with **marketing workflows**, including campaign generation, content distribution, and performance optimization.  
-- Built using **Python**, **LangChain**, and **OpenAI API**, integrated with CRM and marketing tools.  
-- Focused on **decision autonomy**, goal-driven reasoning, and **multi-platform task orchestration**.  
-- Designed for real-world marketing environments (LinkedIn, ActiveCampaign, Squarespace).  
+#### 🤖 **SmallCaps Screener**
+SmallCaps Screener is a Dockerized dashboard for discovering and ranking US small-cap stocks. 
+It discovers candidates from NASDAQ and Finviz, enriches them with yfinance, applies hard filters, 
+computes a setup score, and exposes the results through a FastAPI backend consumed by a React/Vite frontend.
+The interface targets quick visual review of small-cap setups before a potential rally.
+https://github.com/patw47/smallcaps-screener
 
-#### 📊 **AI Trading Agent for Nasdaq Decision Support** *(Private Repository)*
-Development of an **autonomous AI agent** for **NASDAQ market analysis** and **decision support**.  
-- Implemented **multi-agent architecture** for pattern recognition, volatility tracking, and liquidity analysis.  
-- Combined **real-time data streams** with **LLM-based reasoning** to provide actionable trading insights.  
-- Focused on **institutional-grade analysis** and **AI-driven strategy optimization**.  
+#### 📊 **Stock Tracker**
+Automated stock market monitoring bot based on n8n + Claude AI (Anthropic).
+Sends a comprehensive daily briefing via Telegram and Gmail for each monitored ticker.
+https://github.com/patw47/stock-tracker
+
+#### 🤖 **AI Powered Trading Assistant** (Private Repository)
+
+Institutional-style cognitive trading architecture capable of:
+- understanding market context,
+- reasoning probabilistically,
+- learning from historical behavior,
+- reviewing its own mistakes,
+- and progressively improving decision quality over time.
+
+The architecture separates:
+- real-time market intelligence,
+- historical behavioral analysis,
+- cognitive reasoning,
+- and behavioral learning.
+
+The project combines:
+- a Market Intelligence Hub for real-time contextual aggregation,
+- a Historical Market Intelligence Engine for historical pattern analysis,
+- OpenClaw agents for structured reasoning,
+- and a Trade Journal system for long-term behavioral learning and self-review.
+
+The long-term vision is to create a disciplined AI trading copilot capable of:
+- contextual market interpretation,
+- structured decision-making,
+- probabilistic scenario ranking,
+- behavioral self-criticism,
+- and continuous adaptive learning.
 
 💬 *Additional private projects available upon request (under NDA or in private repositories).*
 
