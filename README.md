@@ -1,160 +1,134 @@
-# 👋 Patricia Wintrebert
-**AI Project Lead | ML/AI Engineer | Technical Project Manager | Python | Cloud**
+# Patricia Wintrebert
 
-📍 Based in Switzerland · 🌍 Open to Full Remote Opportunities  
+**AI Builder · Agentic Workflow Engineer · Systems That Ship**
+
+📍 Crans-Montana, Switzerland · 🌍 Full Remote  
+📧 patricia@wintrebert.ch · 🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert) · 💻 [GitHub](https://github.com/patw47)
+
+---
+
+## What I Do
+
+I build autonomous systems. Not prototypes — production agents that scan, decide, notify, and act without a human in the loop.
+
+My stack: **Claude API · n8n · OpenClaw · Python · MCP connectors · VPS self-hosted**.  
+My default mode: ship first, document after.
+
+15 years in software engineering. 5 years building ML and AI systems in production.  
+Currently designing multi-agent pipelines from scratch — architecture, orchestration, scoring logic, deployment.
+
+Trilingual: French (native) · English (fluent) · German (fluent).  
+Swiss C permit holder. Available immediately.
+
+📄 [Download CV (PDF)](https://github.com/patw47/Resume/blob/main/PatriciaWintrebert_Resume.pdf)
+
+---
+
+## What I've Shipped
+
+### 🕵️ The Hunter — Autonomous Job Search Agent *(in progress)*
+> n8n · Claude API · Indeed MCP · Notion MCP · Google Drive MCP · Telegram Bot API · OpenClaw
+
+Fully autonomous job-hunting pipeline. Scans Indeed + LinkedIn daily, runs two scoring layers (deterministic filter + keyword match rate against a master skills matrix), and notifies via Telegram only when a match exceeds threshold. CV and cover letter generated on validation. Zero manual browsing.
+
+I automated my own job search using n8n + Claude API because applying manually is a solved problem.
+
+---
+
+### 📊 Warren — AI Stock Briefing Agent *(live on VPS)*
+> n8n · Claude API · Telegram · Google Drive · self-hosted
+
+Daily autonomous briefing on a personal watchlist. Fetches data, runs analysis per ticker, assembles a structured Telegram report every morning. Runs on a self-hosted VPS alongside other agents. No cloud dependency, no subscription fees.
+
+→ [github.com/patw47/stock-tracker](https://github.com/patw47/stock-tracker)
+
+---
+
+### 📈 SmallCaps Screener — Dockerized Stock Discovery Dashboard *(live)*
+> FastAPI · React/Vite · Docker · yfinance · Finviz
+
+Discovers and ranks US small-cap candidates from NASDAQ and Finviz. Applies hard filters, computes a setup score, exposes results via FastAPI consumed by a React frontend. Built for fast visual review before a potential rally.
+
+→ [github.com/patw47/smallcaps-screener](https://github.com/patw47/smallcaps-screener)
+
+---
+
+### 🧠 AI Trading Copilot — Cognitive Architecture *(private)*
+> OpenClaw · Claude API · n8n · custom Trade Journal system
+
+Institutional-style cognitive trading architecture. Separates real-time market intelligence, historical pattern analysis, structured reasoning (OpenClaw agents), and behavioral self-review (Trade Journal). Designed to understand context, reason probabilistically, and learn from its own mistakes over time.
+
+*Private repo — details available on request.*
+
+---
+
+## Core Stack
+
+| Domain | Tools |
+|---|---|
+| **Agentic systems** | OpenClaw, n8n, Claude API (Sonnet + Haiku), MCP |
+| **AI / ML** | Python, PyTorch, Transformers, LangChain, RAG, fine-tuning |
+| **Backend** | FastAPI, Django, REST APIs, Airflow, Docker |
+| **Frontend** | React, Next.js, TypeScript, Vite |
+| **Data** | PostgreSQL, pgvector, Qdrant, Pinecone, Pandas |
+| **Cloud / Infra** | AWS, Azure, CI/CD, MLOps, GitHub Actions, self-hosted VPS |
+| **Orchestration** | n8n, Make, Zapier, Playwright |
+
+---
+
+## Experience
+
+### Data IQ AG — Zug, Switzerland *(07/2023 – Present)*
+**ML/AI Lead Engineer · Project Manager**
+
+Built RAG-based AI systems for enterprise clients. Managed delivery end-to-end: requirements → architecture → deployment → client onboarding. Ran remote dev teams. Automated CI/CD pipelines. Deployed on AWS and Azure.
+
+---
+
+### Insight Lab AI — Zug, Switzerland *(07/2023 – Present)*
+**ML Engineer · CTO**
+
+Qualitative research platform automating the full workflow from transcription to reporting. Designed the technical architecture. Built AI modules for transcription, anonymization, and text analysis. Managed sprints and offshore development. Deployed on AWS.
+
+---
+
+### InsightSphere — Zurich, Switzerland *(08/2024 – 11/2024)*
+**AI Engineer**
+
+AI-powered tools for conversational data analysis.
+
+---
+
+### Women++ — Zurich, Switzerland *(09/2023 – 11/2023)*
+**ML Engineer**
+
+Applied ML projects in a collaborative tech environment.
+
+---
+
+## Education
+
+- **Mines ParisTech – PSL** · Master's in Machine Learning Engineering *(2023)*
+- **University of Strasbourg** · Bachelor's in Computer Science *(2013)*
+
+---
+
+## Wins
+
+- 🥇 **Deploy Impact Hackathon** — Winner, Zurich (2023)
+- 🥈 **Hack'n'Lead Hackathon** — 2nd place, Zurich (2023)
+- 🧠 Member, **Mensa Switzerland** & **Intertel**
+
+---
+
+## Languages
+
+🇫🇷 French — Native · 🇬🇧 English — Fluent · 🇩🇪 German — Fluent
+
+---
+
+## Contact
+
 📧 patricia@wintrebert.ch  
-🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert) · [GitHub](https://github.com/patw47)
-
----
-
-## 💡 About Me
-Versatile AI engineer and technical project lead with hands-on expertise in **Machine Learning, RAG systems, and Python**, combined with solid experience in **DevOps, cloud deployment (AWS & Azure)**, and **agile project delivery**.  
-
-I bridge the gap between **business needs and technical execution**, managing remote and offshore teams while staying directly involved in the code. From design to production, I deliver scalable, high-quality AI solutions in fast-paced, startup-style environments.  
-
-Trilingual (**English, French, German**) and comfortable in multicultural, international contexts.
-
-📄 [**Download my CV (PDF)**](PatriciaWintrebert_Resume.pdf)
-
----
-
-## 🚀 Key Skills
-### 🧠 AI / ML
-- Python, PyTorch, Transformers, LangChain, OpenAI APIs  
-- Retrieval-Augmented Generation (RAG), NLP, Generative AI  
-- Fine-tuning, model optimization, vector databases  
-
-### ☁️ Cloud & DevOps
-- AWS, Azure  
-- Docker, CI/CD pipelines, Airflow, MLOps, GitHub Actions  
-- Cloud-based API deployment and monitoring  
-
-### 🧭 Management & Delivery
-- Agile & Scrum methodology  
-- Remote / offshore team management  
-- Business requirements translation & stakeholder communication  
-- Product roadmap design & sprint execution  
-
----
-
-## 💼 Experience
-
-### 🔹 **Data IQ AG** — Zug, Switzerland *(07/2023 – Present)*  
-**ML/AI Lead Engineer | Project Manager for Custom AI Solutions**
-
-Data IQ AG helps companies transform their data into value through tailored AI strategies and development.
-
-- Led design & implementation of **RAG-based AI systems** for enterprise clients  
-- Managed **AI projects end-to-end**, from requirements to deployment and client onboarding  
-- Oversaw **remote development teams**, ensuring sprint delivery and quality standards  
-- Developed & deployed **Python-based AI solutions** in AWS and Azure environments  
-- Improved project delivery speed through CI/CD automation and better coordination  
-
----
-
-### 🔹 **Insight Lab AI** — Zug, Switzerland *(07/2023 – Present)*  
-**ML Engineer / CTO**
-
-Insight Lab AI is a collaborative platform for qualitative research, automating the entire workflow from transcription to reporting.
-
-- Defined **technical architecture** and supervised feature integration  
-- Managed **sprints, code reviews, and offshore development**  
-- Built internal **AI modules for transcription, anonymization, and text analysis**  
-- Redesigned core architecture for better scalability and maintainability  
-- Deployed the platform on **AWS** and implemented robust data pipelines  
-
----
-
-### 🔹 **InsightSphere** — Zurich, Switzerland *(08/2024 – 11/2024)*  
-**AI Engineer**  
-- Contributed to development of AI-powered tools for conversational data analysis  
-
-### 🔹 **Women++** — Zurich, Switzerland *(09/2023 – 11/2023)*  
-**ML Engineer**  
-- Participated in applied machine learning projects supporting women in tech initiatives  
-
----
-
-## 🧩 Projects
-
-#### 🤖 **SmallCaps Screener**
-SmallCaps Screener is a Dockerized dashboard for discovering and ranking US small-cap stocks. 
-It discovers candidates from NASDAQ and Finviz, enriches them with yfinance, applies hard filters, 
-computes a setup score, and exposes the results through a FastAPI backend consumed by a React/Vite frontend.
-The interface targets quick visual review of small-cap setups before a potential rally.
-https://github.com/patw47/smallcaps-screener
-
-#### 📊 **Stock Tracker**
-Automated stock market monitoring bot based on n8n + Claude AI (Anthropic).
-Sends a comprehensive daily briefing via Telegram and Gmail for each monitored ticker.
-https://github.com/patw47/stock-tracker
-
-#### 🤖 **AI Powered Trading Assistant** (Private Repository)
-
-Institutional-style cognitive trading architecture capable of:
-- understanding market context,
-- reasoning probabilistically,
-- learning from historical behavior,
-- reviewing its own mistakes,
-- and progressively improving decision quality over time.
-
-The architecture separates:
-- real-time market intelligence,
-- historical behavioral analysis,
-- cognitive reasoning,
-- and behavioral learning.
-
-The project combines:
-- a Market Intelligence Hub for real-time contextual aggregation,
-- a Historical Market Intelligence Engine for historical pattern analysis,
-- OpenClaw agents for structured reasoning,
-- and a Trade Journal system for long-term behavioral learning and self-review.
-
-The long-term vision is to create a disciplined AI trading copilot capable of:
-- contextual market interpretation,
-- structured decision-making,
-- probabilistic scenario ranking,
-- behavioral self-criticism,
-- and continuous adaptive learning.
-
-💬 *Additional private projects available upon request (under NDA or in private repositories).*
-
----
-
-## 🎓 Education
-- 🎓 **Mines ParisTech – PSL**, France — *Master’s in Machine Learning Engineering* (2023)  
-- 🎓 **University of Strasbourg**, France — *Bachelor’s in Computer Science* (2013)
-
----
-
-## 🏆 Achievements
-- 🥇 Winner — *Deploy Impact Hackathon*, Zurich (2023)  
-- 🥈 2nd Place — *Hack’n’Lead Hackathon*, Zurich (2023)  
-- 🧠 Member of *Mensa Switzerland* & *Intertel* (The high IQ society) 
-
----
-
-## 💹 Hobbies & Interests
-- Algorithmic and discretionary trading on **Forex and indices**
-- Designing and backtesting **AI-assisted trading strategies**
-- Studying **market psychology**, **liquidity zones**, and **volatility dynamics**
-- Exploring how **machine learning and quantitative models** can enhance decision-making in financial markets
-- Strong interest in **crypto and blockchain**
-
----
-
-## 🌍 Languages
-- 🇬🇧 English — Fluent  
-- 🇫🇷 French — Native  
-- 🇩🇪 German — Fluent  
-
----
-
-## 📞 Contact
-📧 [patricia@wintrebert.ch](mailto:patricia@wintrebert.ch)  
 🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert)  
 💻 [GitHub](https://github.com/patw47)
-
----
-
-✨ _This CV is available online at [github.com/patw47/Resume](https://github.com/patw47/PatriciaWintrebert_Resume.pdf)._
