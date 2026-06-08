@@ -26,7 +26,7 @@ Swiss C permit holder. Available immediately.
 
 ## What I've Shipped
 
-### 🕵️ The Hunter — Autonomous Job Search Agent *(in progress)*
+### 🕵️ The Hunter - Autonomous Job Search Agent *(in progress)*
 > n8n · Claude API · Indeed MCP · Notion MCP · Google Drive MCP · Telegram Bot API · OpenClaw
 
 Fully autonomous job-hunting pipeline. Scans Indeed + LinkedIn daily, runs two scoring layers (deterministic filter + keyword match rate against a master skills matrix), and notifies via Telegram only when a match exceeds threshold. CV and cover letter generated on validation. Zero manual browsing.
@@ -35,7 +35,7 @@ I automated my own job search using n8n + Claude API because applying manually i
 
 ---
 
-### 📊 Stock tracker — Automated stock monitoring system *(live on VPS)*
+### 📊 Stock tracker - Automated stock monitoring system *(live on VPS)*
 > n8n · Claude Haiku · OpenClaw · Python · systemd · GitHub Actions CI/CD · Telegram
 
 Two-layer autonomous market monitoring system running on a self-hosted VPS.
@@ -50,7 +50,7 @@ Two-layer autonomous market monitoring system running on a self-hosted VPS.
 
 ---
 
-### 📈 SmallCaps Screener — Dockerized Stock Discovery Dashboard *(live)*
+### 📈 SmallCaps Screener - Dockerized Stock Discovery Dashboard *(live)*
 > FastAPI · React/Vite · Docker · yfinance · Finviz
 
 Discovers and ranks US small-cap candidates from NASDAQ and Finviz. Applies hard filters, computes a setup score, exposes results via FastAPI consumed by a React frontend. Built for fast visual review before a potential rally.
@@ -59,7 +59,19 @@ Discovers and ranks US small-cap candidates from NASDAQ and Finviz. Applies hard
 
 ---
 
-### 🧠 AI Trading Copilot — Cognitive Architecture *(private)*
+### 🏡 Property CM — Content Marketing Automation for Villa Eden Bleu *(live, private)*
+
+> n8n · OpenClaw · Claude Haiku/Sonnet · Meta Graph API · Gmail · Google Sheets · Google Calendar · Open-Meteo · Telegram
+
+Validation-first content marketing automation for a holiday rental property. Two independent flows, same pattern: The Concierge (OpenClaw agent) proposes, the owner approves via Telegram, n8n executes. Nothing is published or sent without explicit sign-off.
+Flow 1 — Social (Mon/Wed/Fri 10:00): pulls free periods from Google Sheets reservations, enriches with school holidays (Google Calendar), local weather (Open-Meteo), and events from biscagrandslacs.com, then generates a contextual post. Telegram approval gate → real Drive photos → Instagram + Facebook via Meta Graph API.
+Flow 2 — Newsletter (event-triggered, J-7): Google Calendar event fires the flow one week before send. The Concierge drafts a seasonal newsletter (haute/basse auto-detected from month). Telegram approval gate → subscriber list from Google Sheets (unsub-filtered) → batched Gmail delivery with UUID unsubscribe tokens. Webhook /unsubscribe always-on → updates Sheets → confirmation page.
+Video / TikTok wiring planned for next phase.
+*Private repo — details available on request.*
+
+---
+
+### 🧠 AI Trading Copilot - Cognitive Architecture *(live, private)*
 > OpenClaw · Claude API · n8n · custom Trade Journal system
 
 Institutional-style cognitive trading architecture. Separates real-time market intelligence, historical pattern analysis, structured reasoning (OpenClaw agents), and behavioral self-review (Trade Journal). Designed to understand context, reason probabilistically, and learn from its own mistakes over time.
