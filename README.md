@@ -35,10 +35,16 @@ I automated my own job search using n8n + Claude API because applying manually i
 
 ---
 
-### 📊 Warren — AI Stock Briefing Agent *(live on VPS)*
-> n8n · Claude API · Telegram · Google Drive · self-hosted
+### 📊 Warren — Autonomous Market Intelligence Agent *(live on VPS)*
+> n8n · Claude Haiku · OpenClaw · Python · systemd · GitHub Actions CI/CD · Telegram
 
-Daily autonomous briefing on a personal watchlist. Fetches data, runs analysis per ticker, assembles a structured Telegram report every morning. Runs on a self-hosted VPS alongside other agents. No cloud dependency, no subscription fees.
+Two-layer autonomous market monitoring system running on a self-hosted VPS.
+
+**Layer A — Daily news briefing:** scans 15+ tickers (portfolio + watchlist) every weekday at market close. Claude Haiku runs parallel web searches per ticker, Warren (OpenClaw agent) deduplicates against a rolling per-ticker memory, clusters by sector, and delivers a structured French executive briefing via Telegram. Cost: ~$0.008/day.
+
+**Layer B — EOD anomaly detection *(in progress)*:** statistical price/volume anomaly engine designed to detect idiosyncratic movements *before* the news breaks. MAD-based z-score with a macro market gate (IWM/VIX) to filter systemic risk-off days. Fires Warren only on confirmed idiosyncratic signals — not on beta correlation. Targets micro/small-caps in quantum, nuclear SMR, AI defence, and AR sectors.
+
+**Infra:** three systemd services (n8n, OpenClaw gateway, Python HTTP bridge). Self-hosted GitHub Actions runner for zero-SSH continuous deployment — pushes to `main` auto-deploy, validate, and notify via Telegram.
 
 → [github.com/patw47/stock-tracker](https://github.com/patw47/stock-tracker)
 
