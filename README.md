@@ -35,12 +35,12 @@ I automated my own job search using n8n + Claude API because applying manually i
 
 ---
 
-### 📊 Warren — Autonomous Market Intelligence Agent *(live on VPS)*
+### 📊 Stock tracker — Automated stock monitoring system *(live on VPS)*
 > n8n · Claude Haiku · OpenClaw · Python · systemd · GitHub Actions CI/CD · Telegram
 
 Two-layer autonomous market monitoring system running on a self-hosted VPS.
 
-**Layer A — Daily news briefing:** scans 15+ tickers (portfolio + watchlist) every weekday at market close. Claude Haiku runs parallel web searches per ticker, Warren (OpenClaw agent) deduplicates against a rolling per-ticker memory, clusters by sector, and delivers a structured French executive briefing via Telegram. Cost: ~$0.008/day.
+**Layer A — Daily news briefing:** scans 15+ tickers (my private portfolio + watchlist) every weekday at market close. Claude Haiku runs parallel web searches per ticker, Warren (OpenClaw agent) deduplicates against a rolling per-ticker memory, clusters by sector, and delivers a structured French executive briefing via Telegram. Cost: ~$0.008/day.
 
 **Layer B — EOD anomaly detection *(in progress)*:** statistical price/volume anomaly engine designed to detect idiosyncratic movements *before* the news breaks. MAD-based z-score with a macro market gate (IWM/VIX) to filter systemic risk-off days. Fires Warren only on confirmed idiosyncratic signals — not on beta correlation. Targets micro/small-caps in quantum, nuclear SMR, AI defence, and AR sectors.
 
