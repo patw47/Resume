@@ -59,7 +59,7 @@ Discovers and ranks US small-cap candidates from NASDAQ and Finviz. Applies hard
 
 ---
 
-### 🏡 Property CM — Content Marketing Automation for Villa Eden Bleu *(live, private)*
+### 🏡 Property CM - Content Marketing Automation for Villa Eden Bleu *(live, private)*
 
 > n8n · OpenClaw · Claude Haiku/Sonnet · Meta Graph API · Gmail · Google Sheets · Google Calendar · Open-Meteo · Telegram
 
