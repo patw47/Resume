@@ -1,151 +1,141 @@
-# Patricia Wintrebert
+# 👋 Patricia Wintrebert
 
-**AI Builder · Agentic Workflow Engineer · Systems That Ship**
+**ML/AI Lead Engineer · Forward Deployed AI Engineer · Python · AWS · Agentic Systems**
 
-📍 Crans-Montana, Switzerland · 🌍 Full Remote  
-📧 patricia@wintrebert.ch · 🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert) · 💻 [GitHub](https://github.com/patw47)
-
----
-
-## What I Do
-
-I build autonomous systems. Not prototypes — production agents that scan, decide, notify, and act without a human in the loop.
-
-My stack: **Claude API · n8n · OpenClaw · Python · MCP connectors · VPS self-hosted**.  
-My default mode: ship first, document after.
-
-15 years in software engineering. 5 years building ML and AI systems in production.  
-Currently designing multi-agent pipelines from scratch — architecture, orchestration, scoring logic, deployment.
-
-Trilingual: French (native) · English (fluent) · German (fluent).  
-Swiss C permit holder. Available immediately.
-
-📄 [Download CV (PDF)](https://github.com/patw47/Resume/blob/main/PatriciaWintrebert_Resume.pdf)
+📍 Based in Switzerland · 🌍 Open to Full Remote Opportunities  
+📧 patricia@wintrebert.ch  
+🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert) · [GitHub](https://github.com/patw47)
 
 ---
 
-## What I've Shipped
+## 💡 About Me
 
-### 🕵️ The Hunter - Autonomous Job Search Agent *(in progress)*
-> n8n · Claude API · Indeed MCP · Notion MCP · Google Drive MCP · Telegram Bot API · OpenClaw
+AI engineer and technical lead specializing in **RAG systems, agentic workflows, and production AI deployment**. I design and ship end-to-end AI solutions — from data ingestion and vector indexing to LLM orchestration and cloud deployment — in fast-paced, startup-style environments.
 
-Fully autonomous job-hunting pipeline. Scans Indeed + LinkedIn daily, runs two scoring layers (deterministic filter + keyword match rate against a master skills matrix), and notifies via Telegram only when a match exceeds threshold. CV and cover letter generated on validation. Zero manual browsing.
+I bridge the gap between business needs and technical execution: hands-on in the code, fluent with stakeholders, and experienced leading remote development teams across the full delivery lifecycle.
 
-I automated my own job search using n8n + Claude API because applying manually is a solved problem.
+Trilingual (**English, French, German**) and comfortable in multicultural, international contexts.
 
----
-
-### 📊 Stock tracker - Automated stock monitoring system *(live on VPS)*
-> n8n · Claude Haiku · OpenClaw · Python · systemd · GitHub Actions CI/CD · Telegram
-
-Two-layer autonomous market monitoring system running on a self-hosted VPS.
-
-**Layer A — Daily news briefing:** scans 15+ tickers (my private portfolio + watchlist) every weekday at market close. Claude Haiku runs parallel web searches per ticker, Warren (OpenClaw agent) deduplicates against a rolling per-ticker memory, clusters by sector, and delivers a structured French executive briefing via Telegram. Cost: ~$0.008/day.
-
-**Layer B — EOD anomaly detection *(in progress)*:** statistical price/volume anomaly engine designed to detect idiosyncratic movements *before* the news breaks. MAD-based z-score with a macro market gate (IWM/VIX) to filter systemic risk-off days. Fires Warren only on confirmed idiosyncratic signals — not on beta correlation. Targets micro/small-caps in quantum, nuclear SMR, AI defence, and AR sectors.
-
-**Infra:** three systemd services (n8n, OpenClaw gateway, Python HTTP bridge). Self-hosted GitHub Actions runner for zero-SSH continuous deployment — pushes to `main` auto-deploy, validate, and notify via Telegram.
-
-→ [github.com/patw47/stock-tracker](https://github.com/patw47/stock-tracker)
+📄 [**Download my CV (PDF)**](https://github.com/patw47/Resume/blob/main/PatriciaWintrebert_Resume.pdf)
 
 ---
 
-### 📈 SmallCaps Screener - Dockerized Stock Discovery Dashboard *(live)*
-> FastAPI · React/Vite · Docker · yfinance · Finviz
+## 🚀 Key Skills
 
-Discovers and ranks US small-cap candidates from NASDAQ and Finviz. Applies hard filters, computes a setup score, exposes results via FastAPI consumed by a React frontend. Built for fast visual review before a potential rally.
+### 🧠 AI / ML & Agentic Systems
+- RAG pipelines, vector databases (Qdrant, pgvector), embeddings (OpenAI, Azure OpenAI)
+- LLM orchestration, multi-agent systems, MCP-compatible agentic workflows
+- Claude API, OpenAI API, LangChain, NLP, Generative AI
+- Python, FastAPI, Pydantic
 
-→ [github.com/patw47/smallcaps-screener](https://github.com/patw47/smallcaps-screener)
+### ☁️ Cloud & DevOps
+- AWS (Lambda, App Runner, ECS, ECR, Amplify, RDS)
+- Azure (OpenAI, Speech)
+- Docker, GitHub Actions CI/CD, Supabase
+- MLOps, production monitoring
 
----
+### 🖥️ Frontend & Full-Stack
+- Next.js 14, React, TypeScript, Tailwind CSS
+- REST APIs, Supabase auth, RLS
 
-### 🏡 Property CM - Content Marketing Automation for Villa Eden Bleu *(live, private)*
-
-> n8n · OpenClaw · Claude Haiku/Sonnet · Meta Graph API · Gmail · Google Sheets · Google Calendar · Open-Meteo · Telegram
-
-Validation-first content marketing automation for a holiday rental property. Two independent flows, same pattern: The Concierge (OpenClaw agent) proposes, the owner approves via Telegram, n8n executes. Nothing is published or sent without explicit sign-off.
-Flow 1 — Social (Mon/Wed/Fri 10:00): pulls free periods from Google Sheets reservations, enriches with school holidays (Google Calendar), local weather (Open-Meteo), and events from biscagrandslacs.com, then generates a contextual post. Telegram approval gate → real Drive photos → Instagram + Facebook via Meta Graph API.
-Flow 2 — Newsletter (event-triggered, J-7): Google Calendar event fires the flow one week before send. The Concierge drafts a seasonal newsletter (haute/basse auto-detected from month). Telegram approval gate → subscriber list from Google Sheets (unsub-filtered) → batched Gmail delivery with UUID unsubscribe tokens. Webhook /unsubscribe always-on → updates Sheets → confirmation page.
-Video / TikTok wiring planned for next phase.
-*Private repo — details available on request.*
-
----
-
-### 🧠 AI Trading Copilot - Cognitive Architecture *(live, private)*
-> OpenClaw · Claude API · n8n · custom Trade Journal system
-
-Institutional-style cognitive trading architecture. Separates real-time market intelligence, historical pattern analysis, structured reasoning (OpenClaw agents), and behavioral self-review (Trade Journal). Designed to understand context, reason probabilistically, and learn from its own mistakes over time.
-
-*Private repo — details available on request.*
+### 🧭 Management & Delivery
+- Agile / Scrum, sprint coordination, remote team management
+- Stakeholder workshops, business-to-architecture translation
+- End-to-end deployment ownership
 
 ---
 
-## Core Stack
+## 💼 Experience
 
-| Domain | Tools |
-|---|---|
-| **Agentic systems** | OpenClaw, n8n, Claude API (Sonnet + Haiku), MCP |
-| **AI / ML** | Python, PyTorch, Transformers, LangChain, RAG, fine-tuning |
-| **Backend** | FastAPI, Django, REST APIs, Airflow, Docker |
-| **Frontend** | React, Next.js, TypeScript, Vite |
-| **Data** | PostgreSQL, pgvector, Qdrant, Pinecone, Pandas |
-| **Cloud / Infra** | AWS, Azure, CI/CD, MLOps, GitHub Actions, self-hosted VPS |
-| **Orchestration** | n8n, Make, Zapier, Playwright |
+### 🔹 **data IQ AG · Insight Lab AI** — Zug, Switzerland *(07/2023 – Present)*
 
----
+**ML/AI Lead Engineer & Forward Deployed AI Engineer** · Remote · Contract
 
-## Experience
+data IQ AG is a Swiss AI consulting agency specialized in Market Research, Qualitative Research, and Customer Experience. Insight Lab AI is its flagship SaaS platform for the full qualitative research lifecycle — transcription, anonymisation, and AI-assisted reporting.
 
-### Data IQ AG — Zug, Switzerland *(07/2023 – Present)*
-**ML/AI Lead Engineer · Project Manager**
+**What I shipped in production:**
 
-Built RAG-based AI systems for enterprise clients. Managed delivery end-to-end: requirements → architecture → deployment → client onboarding. Ran remote dev teams. Automated CI/CD pipelines. Deployed on AWS and Azure.
+- Designed and owned end-to-end delivery of RAG pipelines and AI agents: data ingestion, embeddings, vector storage (Qdrant + pgvector), API serving via AWS Lambda
+- Built agentic workflows integrating LLMs (OpenAI, Claude) with client data and internal APIs — MCP-compatible orchestration layer for multi-step agent execution
+- Built a custom RAG system for a major German market research firm: ingested qual discussion guides + quant questionnaires, indexed vectors with metadata in Qdrant, FastAPI backend on AWS App Runner (ECR + RDS PostgreSQL), cosine similarity search with multi-filter support
+- Built and deployed a custom qualitative survey platform for consulting operations: conversational flow, AI-driven probe generation (Azure OpenAI + probabilistic topic extraction), Azure Speech transcription, FastAPI on AWS ECS, Next.js on Amplify, Supabase with RLS
+- Built and operate a production multi-agent coding orchestration system: Claude Code across isolated git worktrees, Notion as operational source of truth, GitHub Actions CI, automated cost quota guard, persistent agent knowledge base for durable cross-session context
+- Contributed to Insight Lab AI core development: project management, sprint coordination, hands-on development, CI/CD ownership
+- Supervised developers, led agile sprints, owned deployments end-to-end
+- Conducted technical workshops; translated client needs into concrete architecture
 
----
-
-### Insight Lab AI — Zug, Switzerland *(07/2023 – Present)*
-**ML Engineer · CTO**
-
-Qualitative research platform automating the full workflow from transcription to reporting. Designed the technical architecture. Built AI modules for transcription, anonymization, and text analysis. Managed sprints and offshore development. Deployed on AWS.
+**Stack:** Python · FastAPI · Next.js · React · TypeScript · AWS Lambda · App Runner · ECS · Amplify · Qdrant · pgvector · OpenAI API · Claude API · Supabase · RAG · Docker · GitHub Actions · Agile
 
 ---
 
-### InsightSphere — Zurich, Switzerland *(08/2024 – 11/2024)*
+### 🔹 **InsightSphere** — Zurich, Switzerland *(08/2024 – 11/2024)*
+
 **AI Engineer**
 
-AI-powered tools for conversational data analysis.
+- Contributed to development of AI-powered tools for conversational data analysis
 
 ---
 
-### Women++ — Zurich, Switzerland *(09/2023 – 11/2023)*
+### 🔹 **Women++** — Zurich, Switzerland *(09/2023 – 11/2023)*
+
 **ML Engineer**
 
-Applied ML projects in a collaborative tech environment.
+- Participated in applied machine learning projects supporting women in tech initiatives
 
 ---
 
-## Education
+## 🧩 Projects
 
-- **Mines ParisTech – PSL** · Master's in Machine Learning Engineering *(2023)*
-- **University of Strasbourg** · Bachelor's in Computer Science *(2013)*
+#### 🤖 **Multi-Agent Development Orchestration System** *(Private)*
+
+Production agentic infrastructure for automated software development: deterministic Python scripts orchestrate Claude Code across isolated git worktrees, with Notion as operational brain, GitHub Actions CI, automated cost quota guard, and a persistent knowledge base (incident post-mortems, code maps, architecture decisions) for durable cross-session agent context.
+
+#### 📈 **SmallCaps Screener**
+
+Dockerized dashboard for discovering and ranking US small-cap stocks. Discovers candidates from NASDAQ and Finviz, enriches with yfinance, applies hard filters, computes a setup score, and exposes results via FastAPI + React/Vite frontend.  
+🔗 [github.com/patw47/smallcaps-screener](https://github.com/patw47/smallcaps-screener)
+
+#### 📊 **Stock Tracker**
+
+Automated stock monitoring bot built on n8n + Claude AI. Sends a daily briefing via Telegram and Gmail for each tracked ticker.  
+🔗 [github.com/patw47/stock-tracker](https://github.com/patw47/stock-tracker)
+
+#### 🤖 **AI Powered Trading Assistant** *(Private)*
+
+Institutional-style cognitive trading architecture combining real-time market intelligence, historical pattern analysis, structured LLM reasoning (OpenClaw agents), and a trade journal system for behavioral self-review and adaptive learning.
+
+💬 *Additional private projects available upon request.*
 
 ---
 
-## Wins
+## 🎓 Education
 
-- 🥇 **Deploy Impact Hackathon** — Winner, Zurich (2023)
-- 🥈 **Hack'n'Lead Hackathon** — 2nd place, Zurich (2023)
-- 🧠 Member, **Mensa Switzerland** & **Intertel**
-
----
-
-## Languages
-
-🇫🇷 French — Native · 🇬🇧 English — Fluent · 🇩🇪 German — Fluent
+- 🎓 **Mines ParisTech – PSL**, France — *Master's in Machine Learning Engineering* (2023)
+- 🎓 **University of Strasbourg**, France — *Bachelor's in Computer Science* (2013)
 
 ---
 
-## Contact
+## 🏆 Achievements
+
+- 🥇 Winner — *Deploy Impact Hackathon*, Zurich (2023)
+- 🥈 2nd Place — *Hack'n'Lead Hackathon*, Zurich (2023)
+- 🧠 Member of *Mensa Switzerland* & *Intertel*
+
+---
+
+## 💹 Interests
+
+Algorithmic and discretionary trading on Forex and indices · AI-assisted trading strategies · Market psychology, liquidity zones, volatility dynamics · Crypto and blockchain
+
+---
+
+## 🌍 Languages
+
+🇬🇧 English — Fluent · 🇫🇷 French — Native · 🇩🇪 German — Fluent
+
+---
+
+## 📞 Contact
 
 📧 patricia@wintrebert.ch  
 🔗 [LinkedIn](https://linkedin.com/in/patriciawintrebert)  
