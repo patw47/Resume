@@ -20,6 +20,23 @@ Trilingual (**English, French, German**) and comfortable in multicultural, inter
 
 ---
 
+## 🧠 How I Work
+
+<img align="right" src="https://raw.githubusercontent.com/patw47/Resume/main/INTJ.jpg" width="180"/>
+
+**Conceptual Planner** — INTJ, rarest personality type among women (~0.5% of population).
+
+I think in systems before I think in code: architecture, failure modes and productization angle first, then implementation.
+
+I deliver structured, documented, reproducible work.
+
+I thrive with **clear ownership and hard problems**.
+I don't do well with micromanagement or decisions made without data.
+
+Decision-making style: 50% Thinking / 50% Feeling, enough logic to kill a bad idea early, enough pragmatism to know when *shipped* beats *perfect*.
+
+---
+
 ## 🚀 Key Skills
 
 ### 🧠 AI / ML & Agentic Systems
