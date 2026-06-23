@@ -10,7 +10,7 @@
 
 ## 💡 About Me
 
-AI engineer and technical lead specializing in **RAG systems, agentic workflows, and production AI deployment**. I design and ship end-to-end AI solutions — from data ingestion and vector indexing to LLM orchestration and cloud deployment — in fast-paced, startup-style environments.
+AI engineer and technical lead specializing in **RAG systems, agentic workflows, and production AI deployment**. I design and ship end-to-end AI solutions, from data ingestion and vector indexing to LLM orchestration and cloud deployment, in fast-paced, startup-style environments.
 
 I bridge the gap between business needs and technical execution: hands-on in the code, fluent with stakeholders, and experienced leading remote development teams across the full delivery lifecycle.
 
@@ -24,7 +24,7 @@ Trilingual (**English, French, German**) and comfortable in multicultural, inter
 
 <img align="right" src="https://raw.githubusercontent.com/patw47/Resume/main/INTJ.jpg" width="180"/>
 
-**Conceptual Planner** — INTJ, rarest personality type among women (~0.5% of population).
+**Conceptual Planner** - INTJ, rarest personality type among women (~0.5% of population).
 
 I think in systems before I think in code: architecture, failure modes and productization angle first, then implementation.
 
@@ -136,7 +136,7 @@ Institutional-style cognitive trading architecture combining real-time market in
 
 - 🥇 Winner — *Deploy Impact Hackathon*, Zurich (2023)
 - 🥈 2nd Place — *Hack'n'Lead Hackathon*, Zurich (2023)
-- 🧠 Member of *Mensa Switzerland* & *Intertel*
+- 🧠 Member of [Mensa Switzerland](https://www.mensa.ch) & [Intertel](https://www.intertel-iq.org)
 
 ---
 
