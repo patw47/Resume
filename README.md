@@ -1,6 +1,6 @@
 # 👋 Patricia Wintrebert
 
-**ML/AI Lead Engineer · Forward Deployed AI Engineer · Python · AWS · Agentic Systems**
+**ML/AI Lead Engineer · Python · Automation · Agentic Systems**
 
 📍 Based in Switzerland · 🌍 Open to Full Remote Opportunities  
 📧 patricia@wintrebert.ch  
@@ -101,30 +101,6 @@ data IQ AG is a Swiss AI consulting agency specialized in Market Research, Quali
 
 ---
 
-## 🧩 Projects
-
-#### 🤖 **Multi-Agent Development Orchestration System** *(Private)*
-
-Production agentic infrastructure for automated software development: deterministic Python scripts orchestrate Claude Code across isolated git worktrees, with Notion as operational brain, GitHub Actions CI, automated cost quota guard, and a persistent knowledge base (incident post-mortems, code maps, architecture decisions) for durable cross-session agent context.
-
-#### 📈 **SmallCaps Screener**
-
-Dockerized dashboard for discovering and ranking US small-cap stocks. Discovers candidates from NASDAQ and Finviz, enriches with yfinance, applies hard filters, computes a setup score, and exposes results via FastAPI + React/Vite frontend.  
-🔗 [github.com/patw47/smallcaps-screener](https://github.com/patw47/smallcaps-screener)
-
-#### 📊 **Stock Tracker**
-
-Automated stock monitoring bot built on n8n + Claude AI. Sends a daily briefing via Telegram and Gmail for each tracked ticker.  
-🔗 [github.com/patw47/stock-tracker](https://github.com/patw47/stock-tracker)
-
-#### 🤖 **AI Powered Trading Assistant** *(Private)*
-
-Institutional-style cognitive trading architecture combining real-time market intelligence, historical pattern analysis, structured LLM reasoning (OpenClaw agents), and a trade journal system for behavioral self-review and adaptive learning.
-
-💬 *Additional private projects available upon request.*
-
----
-
 ## 🎓 Education
 
 - 🎓 **Mines ParisTech – PSL**, France — *Master's in Machine Learning Engineering* (2023)
@@ -140,9 +116,9 @@ Institutional-style cognitive trading architecture combining real-time market in
 
 ---
 
-## 💹 Interests
+## 💹 Interests & Hobbies
 
-Algorithmic and discretionary trading on Forex and indices · AI-assisted trading strategies · Market psychology, liquidity zones, volatility dynamics · Crypto and blockchain
+Algorithmic and discretionary trading on Forex and indices · Market psychology, volatility dynamics · Crypto and blockchain · Reading 
 
 ---
 
